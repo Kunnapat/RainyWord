@@ -1,8 +1,5 @@
 import javax.swing.*;
-
 import java.awt.*;
-import java.awt.geom.Ellipse2D;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Word extends JPanel {

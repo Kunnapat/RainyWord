@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RainyWordClient/RainyWordClient.iml" filepath="$PROJECT_DIR$/RainyWordClient/RainyWordClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RainyWordServer/RainyWordServer.iml" filepath="$PROJECT_DIR$/RainyWordServer/RainyWordServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/RainyWordV0.1.iml" filepath="$PROJECT_DIR$/RainyWordV0.1.iml" />
     </modules>
   </component>

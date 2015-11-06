@@ -1,22 +1,7 @@
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
 
 public class Home extends JFrame {
 	static int windowWidth = 1000;
@@ -38,7 +23,6 @@ public class Home extends JFrame {
 		this.add(startButton, BorderLayout.NORTH);
 		gameSetting = new JButton("Setting");
 		this.add(gameSetting, BorderLayout.SOUTH);
-
 	}
 
 	public static void createAndShowGUI() {
@@ -54,5 +38,4 @@ public class Home extends JFrame {
 	public static void main(String[] args) {
 		createAndShowGUI();
 	}
-
 }
