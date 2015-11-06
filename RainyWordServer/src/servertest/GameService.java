@@ -1,4 +1,4 @@
-package server;
+package servertest;
 
 /**
  * Created by peth on 11/5/2015 AD.
